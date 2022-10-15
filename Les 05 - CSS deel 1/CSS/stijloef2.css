@@ -1,0 +1,8 @@
+.Links {
+    color: red;
+    text-decoration: none;
+}
+
+.Links :hover {
+    color: black;
+}
