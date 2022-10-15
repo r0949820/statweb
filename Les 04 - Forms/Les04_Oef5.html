@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les 04 - Oef 5</title>
+</head>
+<body>
+    <form action="registreren.php" method="get">
+        <div>
+            <label for="Voornaam">Voornaam: <input type="text" name="Voornaam" id="Voornaam" required></label>
+        </div>
+        <div>
+            <label for="Familienaam">Familienaam: <input type="text" name="Familienaam" id="Familienaam" required></label>
+        </div>
+        <div>
+            <label for="Provincie">Provincie: 
+                <select name="Provincie" id="Provincie">
+                    <option value="Antwerpen">Antwerpen</option>
+                    <option value="Limburg" selected>Limburg</option>
+                    <option value="Oost-Vlaanderen">Oost-Vlaanderen</option>
+                    <option value="Vlaams-Brabant">Vlaams-Brabant</option>
+                    <option value="West-Vlaanderen">West-Vlaanderen</option>
+                    <option value="Waals-Brabant">Waals-Brabant</option>
+                    <option value="Henegouwen">Henegouwen</option>
+                    <option value="Luik">Luik</option>
+                    <option value="Luxemburg">Luxemburg</option>
+                    <option value="Namen">Namen</option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Geslacht</legend>
+                    <div>
+                        <label for="Man">Man<input type="radio" name="Geslacht" id="Man"></label>
+                        <label for="Vrouw">Vrouw<input type="radio" name="Geslacht" id="Vrouw"></label>
+                        <label for="Ander">Ander<input type="radio" name="Geslacht" id="Ander"></label>
+                    </div>
+            </fieldset>
+        </div>
+        <div>
+            <label for="Foto">Foto <input type="file" name="Foto" required></label>
+        </div>
+        <div>
+            <label for="Checkbox">Ik ga akkoord met de algemene voorwaarden<input type="Checkbox" name="Checkbox" id="Checkbox"></label>
+        </div>
+        <div>
+            <input type="submit" value="Registreren">
+        </div>
+    </form>
+</body>
+</html>
