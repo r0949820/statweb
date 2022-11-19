@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.strong {
+    font-weight: 700;
+}
+
